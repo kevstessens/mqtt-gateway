@@ -1,7 +1,7 @@
 import { log } from "./logger";
 import { ServerOpts } from "mosca";
 
-export let webAppUrl = process.env.WEB_API_URL || "http://localhost:3000";
+export let webAppUrl = "http://li490-180.members.linode.com";
 log(`Using ${webAppUrl} as API URL`);
 
 export function generateConfig(sslDomain = "") {
